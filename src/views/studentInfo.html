@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/studentInfo.css">
+    <script src="../scripts/studentInfo.js" defer></script>
+</head>
+<body>
+    <div class="student-info-book-renting">
+        <div class="student-info-book-search-wrapper">
+            <input type="text" placeholder="Поиск книги" class="student-info-book-search">
+            <button class="student-info-book-search-btn">🔍</button>
+        </div>
+        <div class="slct">
+            <span>Выберите книгу </span>
+            <select class="student-info-book-selection">
+            </select>
+        </div>
+            
+        <span>Срок до:</span>
+        <input type="date" class="student-info-book-rented-period">
+        <button class="student-info-book-btn">Выдать книгу</button>
+    </div>
+    
+    <table border="1">
+        <tr>
+            <th>Название книги</th>
+            <th>Срок выдачи</th>
+        </tr>
+        <tbody class="student-info-rented-book-info">
+            
+        </tbody>
+    </table>
+    <hr />
+    <span class="historyHeading">История</span>
+    <table border="1">
+        <tr>
+            <th>Название книги</th>
+            <th>Дата выдачи</th>
+            <th>Дата сдачи</th>
+            <th>Прос-ые дни</th>
+            <th>Штраф (руб)</th>
+        </tr>
+        <tbody class="student-info-returned-book-info">
+            
+        </tbody>
+    </table>
+    <hr />
+    <div class="finePayment">
+        <span>Общая сумма штрафа: <span class="fine">0</span></span>
+        <button class="payFine">Оплаченно</button>
+    </div>
+</body>
+</html>

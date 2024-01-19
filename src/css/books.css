@@ -1,0 +1,165 @@
+/* Set minimum height to body */
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #134299;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the table */
+.books-table {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Wrapper for the table */
+.books-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+/* Styles for table headers */
+th {
+    font-weight: bold;
+    padding: 12px 8px;
+    background: #f0f0f0;
+    border-bottom: 2px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Styles for table cells */
+td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+
+/* Highlight on hover */
+.book,
+.student {
+    transition: box-shadow 0.3s;
+    border-radius: 3px;
+}
+
+.book:hover,
+.student:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for buttons */
+.add-book,
+.refresh-page {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.refresh-page {
+    margin-left: 5px;
+}
+
+.refresh-page,
+.add-book {
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.add-book:hover,
+.refresh-page:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styles for search bar */
+.book-search {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    margin-top: 8px;
+    justify-content: flex-end;
+}
+
+.book-search input[type="text"] {
+    padding: 5px;
+    min-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+
+.book-search-button {
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 17px;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.book-search-button:hover {
+    transition: 0.3s ease;
+    border: 3px solid black;
+}
+
+.book-search-button:active {
+    background: #aaa;
+}
+
+/* Styles for add/change book */
+.add-or-change-book {
+    padding: 8px;
+}
+
+.add-or-change-book span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.remove_book_handler {
+    background: #ff6347;
+    margin-bottom: 3px;
+}
+
+.edit_book_handler {
+    background: #1450f7;
+}
+
+/* Hover effect for add/change book button */
+.remove_book_handler:hover {
+    background: red;
+}
+
+.edit_book_handler:hover {
+    background: #0334bb;
+}
+.book-top-options {
+    display: flex;
+}
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/addStudent.css">
+    <script src="../scripts/addStudent.js" defer></script>
+</head>
+<body>
+    <div class="add-student-wrapper">
+        <form class="add-student-form">
+            <input type="text" class="fullname" placeholder="полное имя">
+            <input type="text" class="address" placeholder="адресс">
+            <input type="text" class="passport_number" placeholder="номер паспорта">
+            <input type="text" class="email" placeholder="почта">
+            <input type="text" class="phone_number" placeholder="номер телефона">
+            <input type="number" max="11" min="1" class="grade" placeholder="класс">
+            <label for="born-day-input">Дата рождения</label>
+            <input type="date" name="born-day-input" class="born_day" placeholder="дата рождения">
+            <input type="submit" class="add-student-submit-btn" value="Добавить школьника">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<div class="books-wrapper">
+  <div class="books">
+    <div class="book-top-options">
+      <button class="add-book" onclick="addBook()">Добавить книгу</button>
+      <button class="refresh-page" onclick="refreshPage()">Обновить</button>
+      <div class="book-search">
+        <input type="text" placeholder="Поиск" class="book-search-input">
+        <button class="book-search-button" onclick="getBooks()">🔍</button>
+      </div>
+    </div>
+    <table class="books-table">
+      <tr>
+        <th class="book-number">Номер</th>
+        <th>Название</th>
+        <th>Автор</th>
+        <th>Жанр</th>
+        <th class="book-published-year">Год публикации</th>
+        <th class="book-count-table">Кол-во книг</th>
+        <th>Настройки</th>
+      </tr>
+      <tbody id="books-table-body">
+
+        <!-- Здесь будут отображаться данные о книгах -->
+      </tbody>
+    </table>
+  </div>
+  <script src="../scripts/books.js" defer></script>
+</div>

@@ -1,0 +1,146 @@
+.students-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.students-table {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.students-table-body {
+    width: 100%;
+}
+
+.delete-student-button, .change-student-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete-student-button {
+    background: #ff6347;;
+}
+
+.delete-student-button:hover {
+    text-decoration: none;
+    background: red;
+}
+
+.change-student-button{
+    background: #1450f7;
+    margin-top: 5px;
+}
+
+.change-student-button:hover {
+    background: #0334bb;
+}
+
+.add-student, .refresh-students, .outdate-rented-students {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.refresh-students {
+    margin-left: 5px;
+}
+
+.add-student:hover, .refresh-students:hover, .outdate-rented-students:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.students-top-options {
+    display: flex;
+    align-items: center;
+}
+
+.students-search {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+    margin-top: 5px;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 2px;
+}
+
+.students-search input[type="text"] {
+    padding: 5px;
+    width: 70%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+
+.students-search input[type="text"]:hover {
+    border-color: #aaa;
+}
+
+.students-search input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.students-search button {
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 17px;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.students-search button:hover {
+    transition: 0.3s ease;
+    border: 3px solid black;
+}
+
+.students-search button:active {
+    background: #aaa;
+}
+
+.true {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.showIssuedStudents {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+

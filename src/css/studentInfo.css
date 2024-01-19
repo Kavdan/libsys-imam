@@ -1,0 +1,124 @@
+body {
+    background: #134299;
+}
+
+.student-info-book-renting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.student-info-book-search, 
+.student-info-book-btn,
+.student-info-book-rented-period {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 14px;
+    outline: none;
+}
+
+.student-info-book-selection {
+    margin-bottom: 20px;
+    width: 100px;
+    font: 17px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.student-info-book-btn {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.student-info-return-btn {
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.student-info-return-btn:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.student-info-book-search-wrapper {
+    display: flex;
+    gap: 5px;
+}
+
+.student-info-book-search-btn {
+    cursor: pointer;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    font-weight: bold;
+    padding: 12px 8px;
+    background: #f0f0f0;
+    border-bottom: 2px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Styles for table cells */
+td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+
+.finePayment {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.finePayment button, .student-info-book-btn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #134299;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.finePayment button:hover, .student-info-book-btn{
+    background-color: #0e306e;
+}
+
+.historyHeading {
+    color: white;
+    padding: 3px;
+    margin: 0;
+}
+
+.student-info-book-search-btn {
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 17px;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+.student-info-book-search-btn:hover{
+    transition: 0.3s ease;
+    border: 3px solid black;
+}

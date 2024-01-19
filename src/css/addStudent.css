@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+    background: #134299;
+}
+
+.add-student-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.add-student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.add-student-form input {
+    padding: 5px;
+}
+
+.add-student-form label {
+    text-transform: lowercase;
+    
+}
+
+.add-student-submit-btn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #134299;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.add-student-submit-btn {
+    background-color: #0e306e;
+}
